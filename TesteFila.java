@@ -71,7 +71,7 @@ public class TesteFila {
                 case 2://consulta docc
                     System.out.println(fila);
                     System.out.println("\nConsulta:\n");
-                    System.out.println("Digite o nome do arquivo que deseja consultar (ex: exemplo.docx): ");
+                    System.out.println("Digite o nome do documento que deseja consultar (ex: exemplo.docx): ");
                     String consultaArquivo = scanner.nextLine();
                     fila.consultaDocumento(consultaArquivo);
                     break;
