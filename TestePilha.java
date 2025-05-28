@@ -70,7 +70,7 @@ public class TestePilha {
                 case 2://consulta
                     System.out.println(pilha);
                     System.out.println("\nConsulta:\n");
-                    System.out.println("Digite o nome do arquivo que deseja consultar (ex: exemplo.docx): ");
+                    System.out.println("Digite o nome do documento que deseja consultar (ex: exemplo.docx): ");
                     String consultaArquivo = scanner.nextLine();
                     pilha.consultaDocumento(consultaArquivo);
                     break;
